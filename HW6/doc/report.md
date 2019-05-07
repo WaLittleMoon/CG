@@ -424,6 +424,8 @@ private:
 
 ![](Gouraud-specularStrength%20%26%20shininess.gif)
 
+修改这两个值，光照效果基本没变化。只有当高光落在顶点上时，才会产生变化。
+
 **两种shading方式的比较**：
 
 * Gouraud shading：对顶点进行处理
