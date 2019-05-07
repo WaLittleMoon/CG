@@ -499,5 +499,5 @@ ImGui::SliderInt("shininess", &shininess, 0, 256);
 
 ##### 显示效果
 
-[Bonus display](https://github.com/WaLittleMoon/CG/blob/master/HW6/doc/Gouraud-ambientStrength.gif)
+![Bonus display](Gouraud-ambientStrength.gif)
 
