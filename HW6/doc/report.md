@@ -1,8 +1,8 @@
 #【计算机图形学】HW6
 
-##Homework 
+## Homework 
 
-###Basic:
+### Basic:
 1. 实现Phong光照模型: 
    * 场景中绘制一个cube
    * 自己写shader实现两种shading: Phong Shading 和 Gouraud Shading，并解释两种shading的实现原理 
@@ -12,7 +12,7 @@
    * GUI里可以切换两种shading 
    * 使用如进度条这样的控件，使ambient因子、diffuse因子、specular因子、反光度等参数可调节，光照效 果实时更改 
 
-###Bonus: 
+### Bonus: 
 
 * 当前光源为静止状态，尝试使光源在场景中来回移动，光照效果实时更改。 
 
@@ -499,5 +499,5 @@ ImGui::SliderInt("shininess", &shininess, 0, 256);
 
 ##### 显示效果
 
-[Bonus display](https://github.com/WaLittleMoon/CG/blob/master/HW6/doc/Gouraud-ambientStrength.gif)
+![Bonus display](Gouraud-ambientStrength.gif)
 
