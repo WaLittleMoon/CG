@@ -413,13 +413,16 @@ private:
 ##### 显示效果
 
 * ambientStrength
+
 ![](Gouraud-ambientStrength.gif)
 
 * diffuseStrength
+
 ![](Gouraud-diffuseStrength.gif)
 
 * specularStrength & shininess
-![](Gouraud-specularStrength & shininess.gif)
+
+![](Gouraud-specularStrength%20%26%20shininess.gif)
 
 **两种shading方式的比较**：
 
