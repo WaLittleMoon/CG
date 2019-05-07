@@ -1,5 +1,3 @@
-#【计算机图形学】HW6
-
 ## Homework 
 
 ### Basic:
@@ -323,19 +321,20 @@ private:
 
 ##### 显示效果
 
-* ambientStrength![image-20190507211138825](/Users/miss_jian/Library/Application Support/typora-user-images/image-20190507211138825.png)
+* ambientStrength
+  ![image-20190507211138825](./assets/11.jpg)
 
 * diffuseStrength
 
-  ![image-20190507211054086](/Users/miss_jian/Library/Application Support/typora-user-images/image-20190507211054086.png)
+  ![image-20190507211054086](./assets/21.jpg)
 
 * specularStrength
 
-  ![image-20190507212400543](/Users/miss_jian/Library/Application Support/typora-user-images/image-20190507212400543.png)
+  ![image-20190507212400543](./assets/31.jpg)
 
 * shininess
 
-  ![image-20190507213149729](/Users/miss_jian/Library/Application Support/typora-user-images/image-20190507213149729.png)
+  ![image-20190507213149729](./assets/41.jpg)
 
 #### Gouraud Shading
 
@@ -468,7 +467,7 @@ ImGui::SliderInt("shininess", &shininess, 0, 256);
 
 ##### 显示界面
 
-![image-20190507220145356](/Users/miss_jian/Library/Application Support/typora-user-images/image-20190507220145356.png)
+![image-20190507220145356](./assets/50.jpg)
 
 可以切换两种shading，调节灯的颜色和位置，调节光照的ambient因子、diffuse因子、specular因子、反光度参数。
 
