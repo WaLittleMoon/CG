@@ -323,22 +323,18 @@ private:
 
 * ambientStrength
   ![image-20190507211138825](./assets/11.jpg)
-  ![](Phong-ambientStrength.gif)
 
 * diffuseStrength
 
   ![image-20190507211054086](./assets/21.jpg)
-  ![](Phong-diffuseStrength.gif)
 
 * specularStrength
 
   ![image-20190507212400543](./assets/31.jpg)
-  ![](Phong-specularStrength.gif)
 
 * shininess
 
   ![image-20190507213149729](./assets/41.jpg)
-  ![](Phong-shininess.gif)
 
 #### Gouraud Shading
 
