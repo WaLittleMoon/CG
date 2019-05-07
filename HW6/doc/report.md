@@ -413,16 +413,13 @@ private:
 ##### 显示效果
 
 * ambientStrength
-
-  
+![](Gouraud-ambientStrength.gif)
 
 * diffuseStrength
-
-  
+![](Gouraud-diffuseStrength.gif)
 
 * specularStrength & shininess
-
-
+![](Gouraud-specularStrength & shininess.gif)
 
 **两种shading方式的比较**：
 
@@ -498,5 +495,5 @@ ImGui::SliderInt("shininess", &shininess, 0, 256);
 
 ##### 显示效果
 
-![Bonus display](Gouraud-ambientStrength.gif)
+![Bonus display](Bonus.gif)
 
