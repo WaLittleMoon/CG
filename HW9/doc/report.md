@@ -23,9 +23,7 @@
 * 鼠标事件回调函数
 
   ```c++
-  GLFWmousebuttonfun glfwSetMouseButtonCallback(GLFWwindow * window,
-  															   GLFWmousebuttonfun cbfun 
-  															  )	
+  GLFWmousebuttonfun glfwSetMouseButtonCallback(GLFWwindow * window, GLFWmousebuttonfun cbfun)	
   ```
 
   此函数设置指定窗口的鼠标按钮回调，当按下或释放鼠标按钮时调用此回调。
@@ -43,9 +41,7 @@
 * 光标位置位置函数
 
   ```c++
-  GLFWcursorposfun glfwSetCursorPosCallback(GLFWwindow * window,
-  														  GLFWcursorposfun cbfun 
-  														 )	
+  GLFWcursorposfun glfwSetCursorPosCallback(GLFWwindow * window, GLFWcursorposfun cbfun)	
   ```
 
   **Parameters**
