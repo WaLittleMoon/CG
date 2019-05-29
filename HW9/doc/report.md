@@ -23,9 +23,7 @@
 * 鼠标事件回调函数
 
   ```c++
-  GLFWmousebuttonfun glfwSetMouseButtonCallback	(	GLFWwindow * 	window,
-  																								GLFWmousebuttonfun 	cbfun 
-  																							)	
+  GLFWmousebuttonfun glfwSetMouseButtonCallback(GLFWwindow * window, GLFWmousebuttonfun cbfun)	
   ```
 
   此函数设置指定窗口的鼠标按钮回调，当按下或释放鼠标按钮时调用此回调。
@@ -43,9 +41,7 @@
 * 光标位置位置函数
 
   ```c++
-  GLFWcursorposfun glfwSetCursorPosCallback	(	GLFWwindow * 	window,
-  																						GLFWcursorposfun 	cbfun 
-  																					)	
+  GLFWcursorposfun glfwSetCursorPosCallback(GLFWwindow * window, GLFWcursorposfun cbfun)	
   ```
 
   **Parameters**
@@ -263,13 +259,13 @@ void main()
 
 **Bezier曲线生成过程算法**
 
-线段$P^k_iP^k_{i+1}$上点的参数方程：$P^{k+1}_i=tP^k_i+(1-t)P^k_{i+1}$
+线段$P^k_iP^k_{i+1}$上点的参数方程：$P_i^{k+1}=tP_i^k+(1-t)P_{i+1}^k$
 
 Bezier曲线的生成过程需要用到递归计算：
 
 1. 初始：所有n个控制顶点$P^0_1\cdots P^0_n$，按顺序依次连接，得到n-1条直线$P^0_1P^0_{2},P^0_2P^0_{3},\cdots,P^0_{n-1}P^0_{n}$。
 
-2. 取上一层所有直线$P^k_1P^k_{2},P^k_2P^k_{3},\cdots,P^k_{n-k-1}P^k_{n-k}$上的参数点$P_1^{k+1}\cdots P_{n-k-1}^{k+1}$，按顺序依次连接，得到n-k-1条直线$P^{k+1}_1P^{k+1}_{2},P^{k+1}_2P^{k+1}_{3},\cdots,P^{k+1}_{n-1}P^{k+1}_{n}$。
+2. 取上一层所有直线$P^k_1P^k_{2},P^k_2P^k_{3},\cdots,P^k_{n-k-1}P^k_{n-k}$上的参数点$P_1^{k+1}\cdots P_{n-k-1}^{k+1}$，按顺序依次连接，得到n-k-1条直线$P_1^{k+1}P_{2}^{k+1},P_2^{k+1}P_{3}^{k+1},\cdots,P_{n-1}^{k+1}P_{n}^{k+1}$。
 
    ```c++
    for (int i = 0; i < leftPos - 1; i++) {
